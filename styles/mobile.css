@@ -56,9 +56,35 @@ main, footer
     text-align: center; 
     font-style:  italic;
   }
+ form >div {
+    margin: 15px 0;
+    display: flex;
+ }
+ label{
+    display: block;
+ }
 
-    
-  
+ input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+
+textarea { 
+  box-sizing: border-box; 
+  width: 100%; 
+  padding: 15px;
+}
+input[type="submit"] { 
+    margin: 10px auto; 
+    text-align: center; 
+    width: 100%; 
+    padding: 15px;
+}
+
+form{
+ width: 50%;
+ margin: auto;
+}
+
    
     
   
